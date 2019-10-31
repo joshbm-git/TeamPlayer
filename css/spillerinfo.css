@@ -1,0 +1,90 @@
+main {
+    background-color: white;
+}
+
+#spiller-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#spiller-info h2 {
+    text-align: left;
+    font-size: 22px;
+}
+
+#spiller-info h3 {
+    text-align: left;
+    font-size: 18px;
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 0 0 20px 0;
+}
+
+#spiller-info p {
+    text-align: left;
+    text-transform: uppercase;
+    color: #575757;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+#spiller-img {
+    width: 40%;
+}
+
+#spiller-img img {
+    width: 100%;
+}
+
+#spiller-meta {
+    width: 55%;
+    margin: auto;
+}
+
+.graa-streg {
+    width: 320px;
+    height: 1px;
+    background-color: #909090;
+    margin: 20px auto 0 auto;
+
+}
+
+.logentry {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px;
+
+}
+
+.time {
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.entry {
+    font-weight: lighter;
+    font-size: 18px;
+    width: 250px;
+    text-transform: uppercase;
+    margin: auto;
+    color: #737373;
+}
+
+.pointsgained {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    color: #33ae1d;
+}
+
+.minuspoint {
+    color: #cc2229;
+}
+
+.pluspoint {
+    color: #33ae1d;
+}

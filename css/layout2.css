@@ -6,7 +6,6 @@
 }
 
 body{
-    background-color:grey;
 }
 
 
@@ -61,9 +60,16 @@ header{
     padding:1em;
     padding-top: 3em;
     display:flex;
-justify-content: space-between;
-color:white;
+    justify-content: space-between;
+    color:white;
 
+}
+
+#topWrapper a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
