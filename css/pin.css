@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Bahnschrift", sans-serif;
+}
+
+body{
+    height:100vh;
+    line-height: 1.5;
+    font-size:16px;
+    color:white;
+    background-color:black;
+}
+
+#wrapper{
+    margin:0 auto;
+    border:solid;
+    height:740px;
+    width:360px;
+    background-image: radial-gradient(#cc222a, #b31e25);
+    padding:1em;
+}
+
+#figureWrapper{
+    display:flex;
+    justify-content: center;
+}
+
+#logo{
+    width:50%;
+}
+
+#logo img{
+    width:100%;
+}
+
+h2{
+    text-align: center;
+    font-weight:400;
+    font-size:1.25em;
+    text-transform: uppercase;
+    padding-top:2em;
+}
+
+#boxWrapper{
+    display:flex;
+    padding-top:2em;
+}
+
+.box{
+    height:75px;
+    width:100px;
+    margin:0.3em;
+    border:1px solid white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color:white;
+    color:grey;
+}
+
+#buttonWrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+
+button{
+    margin-top:7em;
+    border-radius:30px;
+    width:85%;
+    font-size:1.25em;
+    height:50px;
+    cursor:pointer;
+    border:none;
+    color:#cc222a;
+    font-weight:bold;
+    text-transform: uppercase;
+    background-color:white;
+}
+
+#skip{
+    text-decoration: none;
+    color:white;
+    font-size:1.25em;
+    padding:1em;
+    display:block;
+    text-align: center;
+}

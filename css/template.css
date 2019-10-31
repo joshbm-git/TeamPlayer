@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Bahnschrift", sans-serif;
+}
+
+body{
+    height:100vh;
+    line-height: 1.5;
+    font-size:16px;
+    color:white;
+    background-color:black;
+}
+
+#wrapper{
+    margin:0 auto;
+    border:solid;
+    height:740px;
+    width:360px;
+    background-image: radial-gradient(#cc222a, #b31e25);
+    padding:1em;
+}
+
+#figureWrapper{
+    display:flex;
+    justify-content: center;
+}
+
+#logo{
+    width:50%;
+    border:solid;
+
+}
+
+#logo img{
+    width:100%;
+}
+
+#buttonWrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+
+button{
+    border-radius:30px;
+    padding:1em 7.5em;
+    height:50px;
+    font-weight: bold;
+    cursor:pointer;
+    border:none;
+    font-size:1em;
+}

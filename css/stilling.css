@@ -1,0 +1,36 @@
+body{
+    background-color:white;
+    line-height:1.5;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    border-bottom:solid 1px grey;
+    padding:1em;
+}
+
+main section{
+    margin-left:1em;
+    margin-right:7.5em;
+}
+
+main figure{
+    width:20%;
+}
+
+main figure img{
+    width:100%;
+}
+
+.numberCircle{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+}
