@@ -4,12 +4,21 @@ body{
     background-color: white;
 }
 
+.hWrapper h2{
+    
+}
+
 .container{
     display: flex;
     align-items: center;
     border-bottom: solid 1px grey;
     padding: 0.5em;
+}
 
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
 }
 
 .container figure{

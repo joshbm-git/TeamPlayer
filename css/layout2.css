@@ -1,83 +1,96 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: "Bahnschrift", sans-serif;
 }
 
-body{
+#swipeNav {
+    line-height: 0;
 }
 
+#swipeNav ul {
+    padding: 1em;
+    padding-top: 2em;
 
-#swipeNav{
-    line-height:0;
 }
 
-#swipeNav ul{
-    padding:1em;
-    padding-top:2em;
- 
+#swipeNav li {
+    border: none;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-#swipeNav li{
-    border:none;
-    font-size:1.25em;
-    text-transform:uppercase;
-    font-weight:bold;
+#swipeNav li:last-of-type {
+    margin-top: 17.5em;
 }
 
-#swipeNav li:last-of-type{
-    margin-top:17.5em;
-}
-
-#figureWrapper{
-    display:flex;
+#figureWrapper {
+    display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-#figureWrapper figure{
-width:40%;
-padding-top:2em;
+#figureWrapper figure {
+    width: 40%;
+    padding-top: 2em;
 }
 
-#figureWrapper figure img{
-    width:100%;
+#figureWrapper figure img {
+    width: 100%;
 }
 
-header{
-    position:relative;
+header {
+    position: relative;
 }
 
 
-#wrapper header{
-    background-color:#cc222a;
-    height:88px;
-}   
+#wrapper header {
+    background-color: #cc222a;
+    height: 88px;
+}
 
 
-#topWrapper{
-    padding:1em;
-    padding-top: 3em;
-    display:flex;
+#topWrapper {
+    padding: 1em;
+    padding-top:2.5em;
+    display: flex;
     justify-content: space-between;
-    color:white;
+    color: white;
 
 }
 
-#topWrapper a{
+#topWrapper a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
+#topWrapper div{
+    width:100%;
     text-transform: uppercase;
+}
+
+#burgerWrapper{
+
+}
+
+.hWrapper {
+
     text-align: center;
 }
 
-.pWrapper{
-    text-align:right;
+.pWrapper {
+
+    font-size:0.75em;
+    text-align: right;
 }
 
+
+
+h2{
+    text-transform: uppercase;
+}

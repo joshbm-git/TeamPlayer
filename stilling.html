@@ -8,24 +8,27 @@
     <link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css" media="all" />
     <link rel="stylesheet" href="css/layout2.css">
     <link rel="stylesheet" href="css/stilling.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-swipe-nav-plugin.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $('#swipeNav').swipeNav();
         });
     </script>
+
+
 </head>
 
 <body>
     <div id="wrapper">
         <header>
             <nav id="swipeNav">
-                    <div id="figureWrapper">
-                            <figure>
-                                <img src="img/Logo-variation1.png" alt="">
-                            </figure>
-                        </div>
+                <div id="figureWrapper">
+                    <figure>
+                        <img src="img/Logo-variation1.png" alt="">
+                    </figure>
+                </div>
                 <ul>
                     <li><a href="valgthold.html">Mit Hold</a></li>
                     <li><a href="stilling.html">Pointstilling</a></li>
@@ -36,42 +39,38 @@
             </nav>
 
             <div id="topWrapper">
-            <figure id="burgerWrapper">
-                <img src="img/burger-ikon-motherfucker.png" alt="" width="24" height="24" id="menuBtn" />
-            </figure>
+                <div id="burgerWrapper">
+                <figure>
+                    <img src="img/burger-ikon-motherfucker.png" alt="" width="24" height="24" id="menuBtn" />
+                </figure>
+            </div>
 
-            <h2>Stilling</h2>
+            <div class="hWrapper">
+                <h2>Stilling</h2>
+            </div>
 
-            <div class="pWrapper">
-            <p>Min placering:</p>
-            <p>#1 af 2.493</p>
-        </div>
-        </div>
-        </div>
-        </header>
-        <main>
-<!--         <div class="container">
-            <figure>
-                <img src="img/avatar-placeholder.png" alt="">
-            </figure>
-               
-                <section>
-                    <h3 id="playerName"></h3>
-                    <p id="points"></p>
-                </section>
-               <div class="numberCircle">1</div>
+                <div class="pWrapper">
+                    <p>Min placering:
+                        <br>
+                            #1 af 2.493
+                    </p>
+                </div>
+            </div>
+    </div>
+    </header>
+  <main>
 
-        </div> -->
-
-        <div id="result"></div>
-        </main>
+<div id="mainWrapper"></div>
+    </main>
 
 
 
     </div>
     </div>
-            
 
+
+    <script src="js/script.js"></script>   
+    <link rel="stylesheet" href="css/stilling.css">
 </body>
 
 </html>
