@@ -9,7 +9,7 @@ var data = {
         "name":"M_Bundu_For_Prezz",
         "point":3083,
         "placering": 2
-    },
+    }, 
     {
         "name":"Agf_forever_",
         "point":2818,
