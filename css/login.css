@@ -19,13 +19,6 @@ input{
     padding:0.5em;
 }
 
-input:nth-last-of-type(1){
-    color:black;
-    color:white;
-    border:solid 2px;
-    border-radius:30px;
-    background-color:#CC2229;
-}
 
 #buttonWrapper{
     padding-top:1.5em;
@@ -39,6 +32,13 @@ button{
     color:grey;
     font-size:1.2em;
 }
+
+#buttonLogin{
+    color:black;
+    color:white;
+    border:solid 2px;
+    background-color:#CC2229;
+} 
 
 
 #buttonFacebook{
