@@ -32,12 +32,28 @@ main {
   padding-top: 54px;
 }
 
+#forsvarvalgt {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
 #maalmand {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   padding-top: 42px;
+}
+
+#maalmandvalgt {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-top: 28px;
 }
 
 .spiller {
@@ -51,30 +67,14 @@ main {
 
 #bund-knapper {
   display: flex;
-  height: 100vh;
-  margin-top: 3.5em;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  padding-top: 42px;
 }
 
 .bundknap {
-  margin: 0 0.5em 0 0em;
-}
-
-#forsvarvalgt {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  padding-top: 40px;
-}
-
-#maalmandvalgt {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  padding-top: 28px;
+  margin: 0 20px;
 }
 
 #placering {

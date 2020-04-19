@@ -1,57 +1,62 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Bahnschrift", sans-serif;
-    font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 16px;
 }
 
 body {
-    background-image: radial-gradient(#cc222a, #b31e25);
-    color:white;
+  background-image: radial-gradient(#cc222a, #b31e25);
+  color: white;
 }
 
-#wrapper{
-    padding:1em;
+#wrapper {
+  padding: 1em;
 }
 
 #figureWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #figureWrapper figure {
-    width: 40%;
-    padding-top: 2em;
+  width: 40%;
+  padding-top: 2em;
 }
 
 #figureWrapper figure img {
-    width: 100%;
+  width: 100%;
 }
 
 h2 {
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-
-#buttonWrapper{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
+#buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button{
-    border-radius:30px;
-    background-color:white;
-    font-size:1em;
-    padding:1em 7em;
-    height:50px;
-    color:#CC2229;
-    font-weight: bold;
-    border:none;
-    cursor:pointer;
-    text-transform:uppercase;
+button {
+  border-radius: 30px;
+  background-color: white;
+  font-size: 1em;
+  padding: 1em 7em;
+  height: 50px;
+  color: #cc2229;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  #wrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
