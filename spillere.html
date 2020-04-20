@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css" media="all" />
-    <link rel="stylesheet" href="css/layout2.css">
-    <link rel="stylesheet" href="css/spillere.css">
+<link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-swipe-nav-plugin.js"></script>
@@ -18,28 +17,27 @@
     </script>
 </head>
 
-<body>
-    <div id="wrapper">
-        <header>
-            <nav id="swipeNav">
-                <div id="figureWrapper">
-                    <figure>
-                        <img src="img/Logo-variation1.png" alt="">
-                    </figure>
-                </div>
-                <ul>
-                    <li><a href="valgthold.html">Mit Hold</a></li>
-                    <li><a href="stilling.html">Pointstilling</a></li>
-                    <li><a href="#">Pointsystem</a></li>
-                    <li><a href="#">Regler</a></li>
-                    <li><a href="login.html">Log ud</a></li>
-                </ul>
-            </nav>
+<body class="page2 spillere">
+    <header>
+      <nav id="swipeNav">
+        <div class="figureWrapper">
+          <figure>
+            <img src="img/Logo-variation1.png" alt="" />
+          </figure>
+        </div>
+        <ul>
+          <li><a href="valgthold.html">Mit Hold</a></li>
+          <li><a href="stilling.html">Pointstilling</a></li>
+          <li><a href="#">Pointsystem</a></li>
+          <li><a href="#">Regler</a></li>
+          <li><a href="login.html">Log ud</a></li>
+        </ul>
+      </nav>
 
-            <div id="topWrapper">
-                    <div id="burgerWrapper">
+            <div class="topWrapper">
+                    <div class="burgerWrapper">
                     <figure>
-                        <img src="img/burger-ikon-motherfucker.png" alt="" width="24" height="24" id="menuBtn" />
+                        <img src="img/burger-ikon.png" alt="" width="24" height="24" id="menuBtn" />
                     </figure>
                 </div>
     
@@ -55,7 +53,7 @@
     </div>
     </header>
     <main>
-        <div id="segmentedWrapper">
+        <div class="segmentedWrapper">
             <ul class="segmented-control">
                 <li class="segmented-control__item"> <input class="segmented-control__input" type="radio" value="1"
                         name="option" id="option-1" checked> <label class="segmented-control__label" for="option-1">

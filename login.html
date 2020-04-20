@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="bahnschrift.ttf">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="bahnschrift.ttf" />
     <title></title>
-</head>
-<body>
-<div id="wrapper">
-<div id="figureWrapper">
-<figure id="logo">
-    <img src="img/Logo-variation1.png" alt="">
-</figure>
-</div>
-<div id="formWrapper">
-<form action="pin.html">
-    <input type="text" name="firstname" placeholder="Brugernavn">
-
-    <input type="text" name="lastname" placeholder="Kodeord">
-
-  <a href="pin.html" id="buttonWrapper">
-    <button id="buttonLogin">Login</button>
-    </a >
-  </form>
-
-</div>
-
-    <a href="pin.html" id="buttonWrapper">
-    <button id="buttonFacebook">Login med Facebook</button>
-    </a >
-
-    <a href="/pin.html" id="buttonWrapper">
-            <button id="buttonGoogle">Login med Google</button>
-            </a >
-<div id="createAccount">
-            <p>Endnu ikke tilmeldt?</p>
-            <a href="pin.html"><p>OPRET DIG</p></a>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <main class="page login">
+        <div class="figureWrapper">
+          <figure class="logo">
+            <img src="img/Logo-variation1.png" alt="" />
+          </figure>
         </div>
-</div>
-</body>
+        <div class="formWrapper">
+          <form action="pin.html">
+            <input type="text" name="firstname" placeholder="Brugernavn" />
+
+            <input type="text" name="lastname" placeholder="Kodeord" />
+
+            <a href="pin.html" class="buttonWrapper">
+              <button class="buttonLogin">Login</button>
+            </a>
+          </form>
+        </div>
+
+        <div class="socialWrapper">
+          <a href="pin.html" class="buttonWrapper">
+            <button class="buttonFacebook">Login med Facebook</button>
+          </a>
+
+          <a href="/pin.html" class="buttonWrapper">
+            <button class="buttonGoogle">Login med Google</button>
+          </a>
+        </div>
+        <div class="createAccount">
+          <p>Endnu ikke tilmeldt?</p>
+          <a href="pin.html"><p>OPRET DIG</p></a>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>

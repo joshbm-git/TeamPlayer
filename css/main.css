@@ -1,23 +1,705 @@
-h2{
-    font-size:1.5em;
-    width:75%;
-    margin:0 auto;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 16px;
 }
 
-p{
-    padding-left:1em;
-    padding-right:1em;
-    padding-top:0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:1em;
-    line-height:2.1;
+body {
+  background: green;
+  color: white;
 }
 
-p:nth-of-type(1){
-    padding-top:3em;
+.page {
+  padding: 1em;
+  background-image: radial-gradient(#cc222a, #b31e25);
+  height: 100vh;
 }
 
-button{
-    position: absolute;
-    bottom:3em;
+#swipeNav {
+  line-height: 0;
+}
+
+#swipeNav ul {
+  padding: 1em;
+  padding-top: 2em;
+}
+
+#swipeNav li {
+  border: none;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#swipeNav li:last-of-type {
+  margin-top: 17.5em;
+}
+
+.figureWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figureWrapper figure {
+  width: 40%;
+}
+
+.figureWrapper figure img {
+  width: 100%;
+}
+
+button {
+  border-radius: 30px;
+  background-color: white;
+  font-size: 1em;
+  padding: 1em 7em;
+  height: 50px;
+  color: #cc2229;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.text-wrapper button {
+  width: 90%;
+}
+
+/* Home */
+.home h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.home .buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home button {
+  position: fixed;
+  bottom: 2em;
+}
+
+.home h2 {
+  font-size: 1.5em;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.home p {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 2.1;
+}
+
+.home p:nth-of-type(1) {
+  padding-top: 1em;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: radial-gradient(#cc222a, #b31e25);
+  }
+  .page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 5em;
+  }
+  .text-wrapper button {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: black;
+  }
+
+  .page {
+    width: 40%;
+    margin: auto;
+  }
+
+  .text-wrapper button {
+    width: 30%;
+  }
+
+  .socialWrapper button {
+    width: 100%;
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1920px) {
+  .page {
+    width: 30%;
+    margin: auto;
+  }
+
+  .text-wrapper button {
+    width: 20%;
+  }
+}
+/* Login */
+.formWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  margin-top: 1em;
+  font-size: 1.3em;
+  width: 90%;
+  columns: #b0b0b0;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.buttonWrapper {
+  padding-top: 1.5em;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+  margin-top: 1em;
+  border: none;
+  padding: 0;
+  color: grey;
+  font-size: 1.2em;
+}
+
+.socialWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.buttonLogin {
+  color: black;
+  color: white;
+  border: solid 2px;
+  width: 90%;
+  background-color: #cc2229;
+}
+
+.buttonFacebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.createAccount {
+  text-align: center;
+  margin-top: 1.5em;
+  padding: 1em;
+}
+
+.createAccount p {
+  font-size: 1.2em;
+}
+
+.createAccount a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* Pin */
+.pin h2 {
+  font-weight: 400;
+  font-size: 1.25em;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.boxWrapper {
+  display: flex;
+  padding-top: 2em;
+}
+
+.box {
+  height: 75px;
+  width: 100px;
+  margin: 0.3em;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: white;
+  color: grey;
+}
+
+.buttonWrapper {
+  text-decoration: none;
+}
+
+.pin button {
+  margin-top: 2em;
+  border-radius: 30px;
+}
+
+.skip {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  padding: 1em;
+  display: block;
+  text-align: center;
+}
+
+/* Lavhold */
+.figureWrapper figure {
+  width: 40%;
+  padding-top: 2em;
+}
+
+.figureWrapper figure img {
+  width: 100%;
+}
+
+.body-wrapper header {
+  background-color: #cc222a;
+}
+
+.topWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding: 1em;
+  background-image: radial-gradient(#cc222a, #b31e25);
+}
+
+.hWrapper h2 {
+  font-size: 1.1em;
+}
+
+.pWrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+.topWrapper div {
+  text-transform: uppercase;
+}
+
+.lavhold {
+  margin: 0;
+  padding: 0;
+}
+
+.lavhold,
+.valgthold {
+  background-image: url(../img/bane-til-mockup4-web.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  background-size: 95%;
+  overflow: hidden;
+}
+
+.spiller {
+  width: 64px;
+  margin: 0px 8px;
+}
+
+.spiller img {
+  width: 100%;
+}
+
+.lavhold div,
+.valgthold div {
+  display: flex;
+  justify-content: center;
+}
+
+.angreb,
+.midtbane,
+.forsvar,
+.maalmand {
+  padding-top: 4em;
+}
+
+.bund-knapper {
+  position: fixed;
+  bottom: 0.1px;
+  left: 0;
+  right: 0;
+}
+
+.bundknap {
+  margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .lavhold,
+  .valgthold {
+    background-size: 70%;
+    height: 95vh;
+    background-color: none;
+  }
+
+  .page2 {
+    background: green;
+  }
+
+  .angreb,
+  .midtbane,
+  .forsvar,
+  .maalmand {
+    padding-top: 8em;
+  }
+
+  .spiller {
+    width: 64px;
+    margin: 0px 20px;
+  }
+
+  .bundknap {
+    margin: 0 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .lavhold,
+  .valgthold {
+    background-size: 100%;
+    height: 95vh;
+    margin: 0 auto;
+  }
+
+  .page2 {
+    background: black;
+  }
+
+  .angreb,
+  .midtbane,
+  .forsvar,
+  .maalmand {
+    padding-top: 5em;
+  }
+}
+
+@media (min-height: 1366px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .lavhold,
+  .valgthold {
+    background-size: 70%;
+    height: 95vh;
+  }
+
+  .page2 {
+    background: green;
+  }
+
+  .angreb,
+  .midtbane,
+  .forsvar,
+  .maalmand {
+    padding-top: 10em;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    width: 35%;
+    margin: 0 auto;
+  }
+  .lavhold,
+  .valgthold {
+    background-color: black;
+    background-size: 87.5%;
+    height: 95vh;
+  }
+
+  .angreb,
+  .midtbane,
+  .forsvar,
+  .maalmand {
+    padding-top: 5em;
+  }
+}
+
+@media (min-width: 1920px) {
+  header {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .lavhold,
+  .valgthold {
+    background-color: black;
+    background-size: 100%;
+    height: 95vh;
+  }
+
+  .angreb,
+  .midtbane,
+  .forsvar,
+  .maalmand {
+    padding-top: 15em;
+  }
+}
+/* Valgthold */
+
+.valgthold .spiller {
+  display: block;
+  text-align: center;
+}
+
+.valgthold .spiller p {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 12px;
+  display: flex;
+}
+
+.angrebvalgt,
+.midtbanevalgt,
+.forsvarvalgt,
+.maalmandvalgt {
+  padding-top: 3em;
+}
+
+@media (min-width: 375px) {
+  .angrebvalgt,
+  .midtbanevalgt,
+  .forsvarvalgt,
+  .maalmandvalgt {
+    padding-top: 5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .angreb,
+  .midtbane,
+  .forsvar,
+  .maalmand {
+    padding-top: 5em;
+  }
+}
+
+@media (min-height: 1366px) {
+  .angrebvalgt,
+  .midtbanevalgt,
+  .forsvarvalgt,
+  .maalmandvalgt {
+    padding-top: 12em;
+  }
+}
+
+@media (min-width: 1920px) {
+  .angrebvalgt,
+  .midtbanevalgt,
+  .forsvarvalgt,
+  .maalmandvalgt {
+    padding-top: 8em;
+  }
+  .spiller {
+    width: 5em;
+    margin: 0px 1em;
+  }
+  .valgthold .spiller p {
+    font-size: 1em;
+  }
+}
+/* Spillere */
+.spillere {
+  background: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px grey;
+  padding: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.container figure {
+  width: 20%;
+}
+
+.container figure img {
+  width: 100%;
+}
+
+.container section {
+  margin-left: 1em;
+}
+.segmentedWrapper {
+  background-color: rgb(242, 242, 242);
+  padding: 0.7em;
+}
+
+.segmented-control {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 1;
+  background-color: rgb(221, 221, 221);
+  border-radius: 10px;
+}
+
+.segmented-control__item {
+  width: 50%;
+  margin: 0;
+  padding-top: 1;
+  list-style-type: none;
+}
+
+.segmented-control__input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.segmented-control__label {
+  display: block;
+  margin: 0 -1px -1px 0; /* -1px margin removes double-thickness borders between items */
+  padding: 0.35em;
+
+  border: 1px solid #ddd;
+
+  font-family: 14px/1.5 "Bahnschrift";
+  text-align: center;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.segmented-control__label:hover {
+  background: #fafafa;
+}
+
+.segmented-control__input:checked + .segmented-control__label {
+  background: white;
+  color: #333;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    background: white;
+  }
+
+  .page2 {
+    background: black;
+  }
+}
+
+@media (min-height: 1366px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1920px) {
+  main {
+    width: 30%;
+  }
+}
+
+/* Stilling */
+.stilling-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  border-bottom: solid 1px grey;
+  padding: 1em;
+  background: white;
+}
+
+.stilling {
+  background: white;
+}
+
+.stilling-container section {
+  margin-left: 1em;
+  margin-right: 7.5em;
+  width: 20%;
+  color: black;
+}
+
+.stilling-container figure {
+  width: 20%;
+}
+
+.stilling-container figure img {
+  width: 100%;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  justify-self: end;
+}
+
+.pWrapper p {
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.stilling-container:nth-of-type(1) .numberCircle {
+  background-color: gold;
+}
+
+.stilling-container:nth-of-type(2) .numberCircle {
+  background-color: silver;
+}
+
+.stilling-container:nth-of-type(3) .numberCircle {
+  background-color: brown;
+  color: white;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .stilling {
+    background: black;
+  }
 }
