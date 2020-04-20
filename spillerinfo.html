@@ -1,105 +1,114 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css" media="all" />
-    <link rel="stylesheet" href="css/layout2.css">
-    <link rel="stylesheet" href="css/spillerinfo.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/jquery-swipe-nav.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="js/jquery-swipe-nav-plugin.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $('#swipeNav').swipeNav();
-        });
+      jQuery(document).ready(function ($) {
+        $("#swipeNav").swipeNav();
+      });
     </script>
-</head>
+  </head>
 
-<body>
-    <div id="wrapper">
-        <header>
-            <a href="valgthold.html"><img src="img/ios-top-dims.png" alt="iOS Header"></a>
-        </header>
-    </div>
+  <body class="page3 spillerinfo">
+    <header>
+      <a href="valgthold.html"
+        ><img src="img/ios-top-dims.png" alt="iOS Header"
+      /></a>
+    </header>
+
     <main>
-        <section id="spiller-info">
-            <div id="spiller-img">
-                <img src="img/bundu.png" alt="Billede af spiller">
-            </div>
-            <div id="spiller-meta">
-                <p>Nr. 19</p>
-                <h2>Mustapha Bundu</h2>
-                <h3>Angriber</h3>
-                <p>Afleveringer: <span class="pluspoint">+43</span></p>
-                <p>Point i alt: <span class="pluspoint">+1663</span></p>
-            </div>
-        </section>
-        <div class="graa-streg"></div>
-        <section id="spiller-log">
-            <div class="logentry">
-                <p class="time">90+3'</p>
-                <p class="entry">Målscoring</p>
-                <p class="pointsgained">+500</p>
-            </div>
-            <div class="logentry">
-                <p class="time">87'</p>
-                <p class="entry">Skud på mål</p>
-                <p class="pointsgained">+50</p>
-            </div>
-            <div class="logentry">
-                <p class="time">86'</p>
-                <p class="entry">Succesfuld tackling</p>
-                <p class="pointsgained">+50</p>
-            </div>
-            <div class="logentry">
-                <p class="time">84'</p>
-                <p class="entry">Frispark begået</p>
-                <p class="pointsgained"><span class="minuspoint">-10</span></p>
-            </div>
-            <div class="logentry">
-                <p class="time">75'</p>
-                <p class="entry">Advarsel</p>
-                <p class="pointsgained"><span class="minuspoint">-250</span></p>
-            </div>
-            <div class="logentry">
-                <p class="time">71'</p>
-                <p class="entry">Skud på mål</p>
-                <p class="pointsgained">+50</p>
-            </div>
-            <div class="logentry">
-                <p class="time">69'</p>
-                <p class="entry">Målscoring</p>
-                <p class="pointsgained">+500</p>
-            </div>
-            <div class="logentry">
-                <p class="time">60'</p>
-                <p class="entry">Skud på mål</p>
-                <p class="pointsgained">+50</p>
-            </div>
-            <div class="logentry">
-                <p class="time">55'</p>
-                <p class="entry">Frispark begået</p>
-                <p class="pointsgained"><span class="minuspoint">-10</span></p>
-            </div>
-            <div class="logentry">
-                <p class="time">54'</p>
-                <p class="entry">Skud på mål</p>
-                <p class="pointsgained">+50</p>
-            </div>
-            <div class="logentry">
-                <p class="time">49'</p>
-                <p class="entry">Assist</p>
-                <p class="pointsgained">+250</p>
-            </div>
-            <div class="logentry">
-                <p class="time">44'</p>
-                <p class="entry">Frispark begået</p>
-                <p class="pointsgained"><span class="minuspoint">-10</span></p>
-            </div>
-        </section>
-    </main>
-</body>
+      <section class="spiller-profile">
+        <figure>
+          <img src="img/bundu.png" alt="Billede af spiller" />
+        </figure>
+        <div class="figcaption-flex">
+          <figcaption>
+            <p>Nr. 19</p>
+            <h2>Mustapha Bundu</h2>
+            <h3>Angriber</h3>
+            <p>Afleveringer: <span class="pluspoint">+43</span></p>
+            <p>Point i alt: <span class="pluspoint">+1663</span></p>
+          </figcaption>
+        </div>
+      </section>
 
+      <section id="spiller-log">
+        <div class="logentry">
+          <p class="time">90+3'</p>
+          <p class="entry">Målscoring</p>
+          <p class="pointsgained">+500</p>
+        </div>
+        <div class="logentry">
+          <p class="time">87'</p>
+          <p class="entry">Skud på mål</p>
+          <p class="pointsgained">+50</p>
+        </div>
+        <div class="logentry">
+          <p class="time">86'</p>
+          <p class="entry">Succesfuld tackling</p>
+          <p class="pointsgained">+50</p>
+        </div>
+        <div class="logentry">
+          <p class="time">84'</p>
+          <p class="entry">Frispark begået</p>
+          <p class="pointsgained"><span class="minuspoint">-10</span></p>
+        </div>
+        <div class="logentry">
+          <p class="time">75'</p>
+          <p class="entry">Advarsel</p>
+          <p class="pointsgained"><span class="minuspoint">-250</span></p>
+        </div>
+        <div class="logentry">
+          <p class="time">71'</p>
+          <p class="entry">Skud på mål</p>
+          <p class="pointsgained">+50</p>
+        </div>
+        <div class="logentry">
+          <p class="time">69'</p>
+          <p class="entry">Målscoring</p>
+          <p class="pointsgained">+500</p>
+        </div>
+        <div class="logentry">
+          <p class="time">60'</p>
+          <p class="entry">Skud på mål</p>
+          <p class="pointsgained">+50</p>
+        </div>
+        <div class="logentry">
+          <p class="time">55'</p>
+          <p class="entry">Frispark begået</p>
+          <p class="pointsgained"><span class="minuspoint">-10</span></p>
+        </div>
+        <div class="logentry">
+          <p class="time">54'</p>
+          <p class="entry">Skud på mål</p>
+          <p class="pointsgained">+50</p>
+        </div>
+        <div class="logentry">
+          <p class="time">49'</p>
+          <p class="entry">Assist</p>
+          <p class="pointsgained">+250</p>
+        </div>
+        <div class="logentry">
+          <p class="time">44'</p>
+          <p class="entry">Frispark begået</p>
+          <p class="pointsgained"><span class="minuspoint">-10</span></p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

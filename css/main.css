@@ -703,3 +703,77 @@ a {
     background: black;
   }
 }
+
+/* Spillerinfo */
+.spillerinfo {
+  background: white;
+  color: black;
+}
+
+.spillerinfo img {
+  width: 100%;
+}
+
+.spillerinfo header {
+  background-color: white;
+  text-decoration: none;
+}
+
+.spillerinfo main {
+  background: white;
+}
+
+.spiller-profile {
+  display: flex;
+  border-bottom: 2px solid lightgrey;
+}
+
+.spiller-profile figure {
+  width: 50%;
+}
+
+.spiller-profile .figcaption-flex {
+  display: flex;
+  align-items: center;
+}
+
+#spiller-log {
+}
+
+.logentry {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.pointsgained {
+  color: #33ae1d;
+}
+
+.minuspoint {
+  color: #cc2229;
+}
+
+.pluspoint {
+  color: #33ae1d;
+}
+
+@media (min-width: 768px) {
+  .spillerinfo {
+    width: 90%;
+    margin: 0 auto;
+    background: black;
+  }
+  .spiller-profile,
+  #spiller-log {
+    width: 90%;
+
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stilling {
+    background: black;
+  }
+}
