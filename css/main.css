@@ -458,7 +458,7 @@ button {
   .midtbane,
   .forsvar,
   .maalmand {
-    padding-top: 15em;
+    padding-top: 8em;
   }
 }
 /* Valgthold */
@@ -492,10 +492,10 @@ button {
 }
 
 @media (min-width: 1024px) {
-  .angreb,
-  .midtbane,
-  .forsvar,
-  .maalmand {
+  .angrebvalgt,
+  .midtbanevalgt,
+  .forsvarvalgt,
+  .maalmandvalgt {
     padding-top: 5em;
   }
 }
