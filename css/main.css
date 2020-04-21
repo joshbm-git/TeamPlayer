@@ -65,13 +65,21 @@ button {
 }
 
 .text-wrapper button {
-  width: 90%;
+  width: 100%;
 }
 
 /* Home */
+.home,
+.login,
+.pin {
+  background-image: radial-gradient(#cc222a, #b31e25);
+}
 .home h2 {
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.5em;
+  width: 75%;
+  margin: 1em auto;
 }
 
 .home .buttonWrapper {
@@ -83,12 +91,6 @@ button {
 .home button {
   position: fixed;
   bottom: 2em;
-}
-
-.home h2 {
-  font-size: 1.5em;
-  width: 75%;
-  margin: 0 auto;
 }
 
 .home p {
@@ -114,12 +116,19 @@ button {
     padding: 0 5em;
   }
   .text-wrapper button {
-    width: 40%;
+    width: 75%;
+  }
+
+  .home button {
+    position: initial;
+    margin-top: 5em;
   }
 }
 
 @media (min-width: 1024px) {
-  body {
+  .home,
+  .login,
+  .pin {
     background: black;
   }
 
@@ -129,7 +138,7 @@ button {
   }
 
   .text-wrapper button {
-    width: 30%;
+    width: 100%;
   }
 
   .socialWrapper button {
@@ -145,7 +154,7 @@ button {
   }
 
   .text-wrapper button {
-    width: 20%;
+    width: 80%;
   }
 }
 /* Login */
@@ -184,7 +193,7 @@ button {
 }
 
 .socialWrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -264,7 +273,6 @@ button {
 /* Lavhold */
 .figureWrapper figure {
   width: 40%;
-  padding-top: 2em;
 }
 
 .figureWrapper figure img {
@@ -309,7 +317,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   height: 90vh;
-  background-size: 95%;
+  background-size: 90%;
   overflow: hidden;
 }
 
@@ -663,6 +671,11 @@ a {
 
 .stilling-container figure img {
   width: 100%;
+}
+
+#playerName,
+#points {
+  width: 200px;
 }
 
 .numberCircle {

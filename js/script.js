@@ -56,7 +56,7 @@ function visData(jsonElementer) {
       jsonElementer.users[i].point +
       ' point</p> </section> <div class="numberCircle">' +
       jsonElementer.users[i].placering +
-      "</div> </div>";
+      "</div></div>";
   }
   document.getElementById("mainWrapper").innerHTML = divIndhold;
 }
